@@ -1,0 +1,12 @@
+CLASS-1
+
+create database testing1
+Use testing1;
+create table employee(empid int , ename varchar(30), age int, dob date) 
+select * from employee
+alter table employee change empid regid int
+alter table employee add column city varchar(30)
+alter table employee drop column dob
+alter table employee modify ename varchar(80)
+-- drop table employee
+-- drop database testing1
